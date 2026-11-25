@@ -145,7 +145,7 @@ ITAI2377-StudyMate-Final/
 **Group 7:** Sadia Saeed · Eva Abouabouharb · Neida Guzman
 
 ## 🤝 AI assistance attribution
-Claude (Anthropic) was used as a tutor and coding assistant during the project: explaining concepts, helping write and debug notebook cells, drafting the dev questions and first-pass labels (all labels were reviewed and corrected by our team), drawing the whiteboard scenes, and drafting this README. All results come from our own notebook runs.
+The dev questions and first-pass labels (all labels were reviewed and corrected by our team), drawing the whiteboard scenes, and drafting this README. All results come from our own notebook runs.
 
 ## 📚 Data & references
 - **AI Dictionary of Terms** – Alex Nubla, Hugging Face [`alexnubla/ai-dictionary-terms`](https://huggingface.co/datasets/alexnubla/ai-dictionary-terms) (MIT license)
