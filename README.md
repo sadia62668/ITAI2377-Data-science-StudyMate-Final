@@ -1,6 +1,6 @@
 # 🎓 StudyMate – An AI Tutor That Explains Machine Learning to Beginners
 
-**ITAI 2377 – Data Science · Final Project: Implementing a Domain-Specific AI Assistant**
+*ITAI2377-Data-science-StudyMate-Final/: Implementing a Domain-Specific AI Assistant**
 **Group 7:** Sadia Saeed · Eva Abouabouharb · Neida Guzman
 
 StudyMate helps people with **no AI background** learn machine learning. A student types a question in plain words, and StudyMate:
@@ -106,6 +106,22 @@ Five real questions asked in the app. Each one shows the lesson StudyMate picked
 ![Loss and optimizers example](images/app_1.png)
 </details>
 
+## 📓 Notebooks
+The project is split into 8 parts so each step is easy to find and read. Each part keeps its real outputs.
+To **run** StudyMate, use the full notebook: it runs everything top to bottom.
+
+| # | Notebook | What's inside | Assignment part |
+|---|---|---|---|
+| 1 | [01_Setup_and_Data_Loading](notebooks/01_Setup_and_Data_Loading.ipynb) | Setup, load the 50 core lessons + AI Dictionary | Data collection |
+| 2 | [02_Preprocessing_and_Data_Quality](notebooks/02_Preprocessing_and_Data_Quality.ipynb) | Build the 66-lesson library, before/after quality charts | Preprocessing |
+| 3 | [03_Feature_Engineering_and_Search](notebooks/03_Feature_Engineering_and_Search.ipynb) | TF-IDF, embeddings, hybrid, reranker, fusion | Feature engineering |
+| 4 | [04_Answer_Cards_and_Guard](notebooks/04_Answer_Cards_and_Guard.ipynb) | Qwen answer cards (RAG) + off-topic guard | Core functionality |
+| 5 | [05_Dev_Evaluation_and_Feature_Importance](notebooks/05_Dev_Evaluation_and_Feature_Importance.ipynb) | Dev questions, search comparison, feature importance | Evaluation |
+| 6 | [06_Final_Exam_Real_Questions](notebooks/06_Final_Exam_Real_Questions.ipynb) | Real Stack Exchange questions, labels, final exam | Evaluation |
+| 7 | [07_Whiteboards](notebooks/07_Whiteboards.ipynb) | Whiteboard engine + all 66 whiteboards | Innovation |
+| 8 | [08_StudyMate_App](notebooks/08_StudyMate_App.ipynb) | The AI StudyMate Gradio app | Interface |
+| ▶️ | [**FN_StudyMate_Group7_ITAI2377**](notebooks/FN_StudyMate_Group7_ITAI2377.ipynb) | **The full project: runs top to bottom** | All |
+
 ---
 
 ## 📁 Repository structure
@@ -115,7 +131,8 @@ ITAI2377-StudyMate-Final/
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
-│   └── FN_StudyMate_Group7_ITAI2377.ipynb   ← the full project (runs top to bottom)
+│   ├── 01_Setup_and_Data_Loading … 08_StudyMate_App   ← 8 parts, for reading
+│   └── FN_StudyMate_Group7_ITAI2377.ipynb             ← the full project (runs top to bottom)
 ├── data/
 │   ├── README.md          ← what every data file is and where it comes from
 │   ├── raw/               ← ml_lessons.csv (our 50 core lessons, written by our team)
