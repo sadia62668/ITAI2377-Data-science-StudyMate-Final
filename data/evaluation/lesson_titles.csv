@@ -1,0 +1,67 @@
+title,topic
+What is Machine Learning?,Introduction to ML
+AI vs ML,Introduction to ML
+Supervised Learning,Introduction to ML
+Unsupervised Learning,Introduction to ML
+Reinforcement Learning,Introduction to ML
+Data Cleaning,Data Preprocessing
+Missing Values,Data Preprocessing
+Feature Scaling,Data Preprocessing
+Train-Test Split,Data Preprocessing
+Outliers,Data Preprocessing
+Features and Targets,Feature Engineering
+One-Hot Encoding,Feature Engineering
+Feature Selection,Feature Engineering
+Derived Features,Feature Engineering
+Text Features,Feature Engineering
+Linear Regression,Regression
+Slope and Intercept,Regression
+Multiple Regression,Regression
+Mean Squared Error,Regression
+R-Squared,Regression
+Classification Basics,Classification
+Logistic Regression,Classification
+Decision Trees,Classification
+K-Nearest Neighbors,Classification
+Random Forest,Classification
+Accuracy,Model Evaluation
+Precision,Model Evaluation
+Recall,Model Evaluation
+F1 Score,Model Evaluation
+Confusion Matrix,Model Evaluation
+Overfitting,Overfitting and Underfitting
+Underfitting,Overfitting and Underfitting
+Cross-Validation,Overfitting and Underfitting
+Regularization,Overfitting and Underfitting
+Data Leakage,Overfitting and Underfitting
+Clustering,Unsupervised Learning
+K-Means,Unsupervised Learning
+Choosing K,Unsupervised Learning
+PCA,Unsupervised Learning
+Clustering Evaluation,Unsupervised Learning
+Neural Network Basics,Neural Networks
+Neurons and Weights,Neural Networks
+Activation Functions,Neural Networks
+Epochs and Batches,Neural Networks
+Loss and Optimizers,Neural Networks
+ML Project Workflow,Practical ML Projects
+Building a Regression Model,Practical ML Projects
+Building a Classifier,Practical ML Projects
+Comparing Models,Practical ML Projects
+Model Improvement,Practical ML Projects
+Deep Learning,Architecture
+Gradient Descent,Training
+Learning Rate,Training
+Backpropagation,Training
+Transfer Learning,Training
+Fine-tuning,Training
+Self-Supervised Learning,Training
+Softmax Function,Architecture
+Transformer,Architecture
+Attention Mechanism,Architecture
+Embedding,Architecture
+Token,Architecture
+Hyperparameter,Training
+Data Augmentation,Training
+Hallucination,Evaluation
+Generative AI,Architecture

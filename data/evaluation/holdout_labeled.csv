@@ -1,0 +1,121 @@
+question_id,question,suggestion_1,suggestion_2,suggestion_3,suggestion_4,suggestion_5,expected_lesson,also_acceptable
+H001,Gradient descent multidimensional linear regression - does learning rate affects concurrency?,Gradient Descent,Learning Rate,Linear Regression,Regularization,Transfer Learning,Learning Rate,Gradient Descent
+H002,Why is it bad to use the same test dataset over and over again?,Cross-Validation,Data Cleaning,Data Leakage,Overfitting,Train-Test Split,Data Leakage,Overfitting
+H003,Why use Gradient Descent when Gradient just solve the problem? (With Neural Nets),Activation Functions,Backpropagation,Gradient Descent,Loss and Optimizers,Neurons and Weights,Gradient Descent,Loss and Optimizers
+H004,Ad click prediction: what are the negative examples?,Confusion Matrix,Features and Targets,R-Squared,Supervised Learning,Unsupervised Learning,Features and Targets,
+H005,What is the significance of underflow during parameter update using stochastic gradient descent?,Backpropagation,Data Leakage,Gradient Descent,Learning Rate,Loss and Optimizers,skip,
+H006,What are differentiable modules used in deep learning,Activation Functions,Deep Learning,Neurons and Weights,Softmax Function,Transformer,Activation Functions,Softmax Function
+H007,What does discriminator of a GAN should do?,Building a Classifier,Data Augmentation,Fine-tuning,Generative AI,Softmax Function,Generative AI,
+H008,Is converting a numerical target to binary helpful?,Building a Regression Model,Feature Scaling,Features and Targets,One-Hot Encoding,Precision,Classification Basics,Features and Targets
+H009,what is nn.index mean in KNN output,Embedding,K-Means,K-Nearest Neighbors,Neurons and Weights,Softmax Function,skip,
+H010,Why/When should I use VGG16 to do fine-tuning?,Feature Scaling,Fine-tuning,Hyperparameter,Learning Rate,Model Improvement,Fine-tuning,Transfer Learning
+H011,Are there any pre-trained non english model of deepspeech?,Deep Learning,Fine-tuning,Neural Network Basics,Self-Supervised Learning,Transformer,skip,
+H012,Optimal proportion between the amount of Class = 1 and the amount of Class = 0?,Building a Classifier,Clustering,Confusion Matrix,Logistic Regression,Softmax Function,skip,
+H013,Output a word instead of a vector after word embedding?,Data Augmentation,Embedding,Text Features,Token,Transformer,Embedding,Token
+H014,How is the cross-product transformation defined for binary features?,Decision Trees,Derived Features,Feature Scaling,Features and Targets,One-Hot Encoding,Derived Features,
+H015,What are the possible ways to detect skin while classifying diseases?,Building a Classifier,Choosing K,Classification Basics,Decision Trees,K-Nearest Neighbors,skip,
+H016,Should I rescale losses before combining them for multitask learning?,Cross-Validation,Learning Rate,Loss and Optimizers,Regularization,Transfer Learning,skip,
+H017,What is an expert system,Accuracy,Attention Mechanism,Fine-tuning,Loss and Optimizers,What is Machine Learning?,AI vs ML,What is Machine Learning?
+H018,Can Boosted Trees predict below the minimum value of the training label?,Building a Classifier,Decision Trees,K-Nearest Neighbors,Random Forest,Supervised Learning,skip,
+H019,"How to train model to predict events 30 minutes prior, from multi-dimensionnal timeseries",Building a Classifier,Building a Regression Model,Deep Learning,Transfer Learning,Transformer,skip,
+H020,Including the dependent variable in your data to perform principal component analysis?,Building a Regression Model,Derived Features,Feature Selection,Features and Targets,PCA,PCA,Data Leakage; Features and Targets
+H021,How to read the labeled enron dataset categories?,Building a Classifier,Classification Basics,K-Nearest Neighbors,One-Hot Encoding,Supervised Learning,skip,
+H022,IS there any way we can add range in hyperparameter tuning of Decision Tree?,Decision Trees,Hyperparameter,Learning Rate,Model Improvement,Random Forest,Hyperparameter,Model Improvement; Decision Trees
+H023,Does MLP always find local minimum,AI vs ML,Building a Regression Model,Gradient Descent,Learning Rate,ML Project Workflow,Gradient Descent,Loss and Optimizers; Neural Network Basics
+H024,How are per-layer-detected-patterns in a trained CNN plotted?,Activation Functions,Backpropagation,Deep Learning,Neural Network Basics,Unsupervised Learning,skip,
+H025,How to implement Classification and Anomaly detection (C++),Backpropagation,Building a Classifier,Classification Basics,Decision Trees,Supervised Learning,skip,
+H026,How can I infer psychological intentions from email corpus using text mining?,Classification Basics,Confusion Matrix,Supervised Learning,Text Features,Token,skip,
+H027,How to treat the datasets with unreliable labels,Building a Classifier,Clustering,Confusion Matrix,Data Cleaning,Unsupervised Learning,skip,data cleaning
+H028,How does SMOTE work for dataset with only categorical variables?,Classification Basics,Derived Features,Feature Scaling,Missing Values,One-Hot Encoding,skip,
+H029,What are Machine learning model characteristics?,AI vs ML,Building a Regression Model,Model Improvement,Supervised Learning,What is Machine Learning?,What is Machine Learning?,
+H030,How could I estimate slope of lines on a scatter plot?,Activation Functions,Linear Regression,Mean Squared Error,R-Squared,Slope and Intercept,Slope and Intercept,Linear Regression
+H031,How to optimize XGBoost performance accuracy?,Accuracy,Fine-tuning,Hyperparameter,Learning Rate,Model Improvement,Model Improvement,Hyperparameter
+H032,What is whole word masking in the recent BERT model?,Attention Mechanism,Regularization,Text Features,Token,Transformer,skip,
+H033,How do I approach a classification problem where one of the classes is defined by 'not any of the others',Building a Classifier,Classification Basics,Clustering,K-Nearest Neighbors,Unsupervised Learning,skip,
+H034,Neural Network data type conversion - float from int?,Activation Functions,Backpropagation,Neural Network Basics,Neurons and Weights,Softmax Function,skip,
+H035,What metrics determine the quality of the model?,Accuracy,Comparing Models,Model Improvement,Precision,R-Squared,Comparing Models,Accuracy
+H036,How to interpret Hashingvectorizer representation?,Confusion Matrix,Data Augmentation,Embedding,One-Hot Encoding,PCA,Text Features,
+H037,How do you calculate how dense or sparse a dataset is?,Accuracy,Embedding,Missing Values,PCA,Regularization,skip,
+H038,What to do with stale centroids in K-means,Choosing K,Clustering,Clustering Evaluation,K-Means,K-Nearest Neighbors,skip,K-Means
+H039,Does Gradient Boosting detect non-linear relationships?,Activation Functions,Gradient Descent,Linear Regression,Supervised Learning,Unsupervised Learning,skip,
+H040,How to refit a model?,Building a Regression Model,Comparing Models,Fine-tuning,Model Improvement,Regularization,skip,
+H041,Why does my LSTM perform better when randomizing training subset vs. standard batch training?,Epochs and Batches,Hyperparameter,Learning Rate,Model Improvement,Transformer,skip,
+H042,How to creat a plot for the accuracy of a model,Accuracy,Confusion Matrix,Linear Regression,Precision,R-Squared,skip,
+H043,Why would we add regularization loss to the gradient itself in an SVM?,Backpropagation,Data Augmentation,Gradient Descent,Loss and Optimizers,Regularization,Regularization,Gradient Descent
+H044,Is there a machine learning model suited well for longitudinal data?,AI vs ML,Building a Regression Model,Deep Learning,Unsupervised Learning,What is Machine Learning?,skip,
+H045,"Paper: What's the difference between Layer Normalization, Recurrent Batch Normalization (2016), and Batch Normalized RNN (2015)?",Deep Learning,Epochs and Batches,Neural Network Basics,Softmax Function,Transformer,skip,
+H046,"how to split the original data in training, validation and testing?",Comparing Models,Cross-Validation,Data Augmentation,Train-Test Split,Transfer Learning,Train-Test Split,Cross-Validation
+H047,Should I keep common stop-words when preprocessing for word embedding?,Embedding,Regularization,Text Features,Token,Train-Test Split,Text Features,Embedding; Token
+H048,Can one property name be used twice in the same branch of a DecisionTreeRegressor?,Decision Trees,Feature Selection,Features and Targets,Multiple Regression,Random Forest,Decision Trees,
+H049,Best method to deal with too many zeroes in regression problem?,Building a Regression Model,Linear Regression,Multiple Regression,Precision,Slope and Intercept,skip,
+H050,How to know if a model is overfitting or underfitting by looking at graph,Cross-Validation,Data Leakage,Overfitting,Regularization,Underfitting,Overfitting,Underfitting
+H051,What do I initialise each model in cross validation with in a multi-layer Perceptron?,Backpropagation,Cross-Validation,Deep Learning,Hyperparameter,Train-Test Split,Cross-Validation,
+H052,Why to Train Q-function in Reinforcement Learning?,Activation Functions,Gradient Descent,Learning Rate,Reinforcement Learning,Softmax Function,Reinforcement Learning,
+H053,Why is my training accuracy decreasing higher degrees of polynomial features?,Accuracy,Features and Targets,Learning Rate,Model Improvement,Overfitting,skip,
+H054,Why activation functions used in neural networks generally have limited range?,Activation Functions,Deep Learning,Neural Network Basics,Neurons and Weights,Softmax Function,Activation Functions,
+H055,Do we need to do multiple times deep learning and average ROC?,Comparing Models,Cross-Validation,Deep Learning,Random Forest,Transfer Learning,Cross-Validation,Comparing Models
+H056,"How do we decide between XGBoost, RandomForest and Decision tree?",Classification Basics,Decision Trees,Feature Selection,Features and Targets,Random Forest,Comparing Models,Random Forest; Decision Trees
+H057,binary decision tree hyperplane parallel to axis?,Building a Classifier,Decision Trees,K-Nearest Neighbors,One-Hot Encoding,Random Forest,Decision Trees,
+H058,Is it possible to train a neural network to solve polynomial equations?,Activation Functions,Backpropagation,Neural Network Basics,Neurons and Weights,Softmax Function,skip,
+H059,Decision Tree: SPRINT vs SLIQ?,Choosing K,Clustering Evaluation,Confusion Matrix,Decision Trees,Random Forest,skip,
+H060,How to add time as a feature into clustering algorithm?,Choosing K,Clustering,Clustering Evaluation,K-Means,Text Features,skip,
+H061,Any differences in regularisation in MLP between batch and individual updates?,AI vs ML,Data Augmentation,Epochs and Batches,Model Improvement,Regularization,skip,
+H062,"How do you search for content, not words?",Attention Mechanism,Embedding,Generative AI,Text Features,Unsupervised Learning,Embedding,
+H063,why sign flip to indicate loss in hyperopt?,Confusion Matrix,Gradient Descent,Hallucination,Hyperparameter,Loss and Optimizers,skip,
+H064,Why does it has a constant val_loss:?,Data Leakage,Gradient Descent,Learning Rate,Loss and Optimizers,Neurons and Weights,skip,
+H065,How to speed up optimization using Differential Evolution?,Gradient Descent,Learning Rate,Loss and Optimizers,Model Improvement,Regularization,skip,
+H066,Does the predict function in machine learning understand categorical data,Classification Basics,Logistic Regression,Softmax Function,Supervised Learning,What is Machine Learning?,One-Hot Encoding,Features and Targets
+H067,How to find appropliate algorithm to bulid a model for natural language based two data,Generative AI,Self-Supervised Learning,Text Features,Token,Transformer,skip,
+H068,How much data to use for feature selection?,Decision Trees,Derived Features,Feature Scaling,Feature Selection,Features and Targets,skip,
+H069,How is the probability prediction of a binary classifier predicted,Accuracy,Building a Classifier,Classification Basics,Logistic Regression,Softmax Function,Logistic Regression,Classification Basics; Softmax Function
+H070,Can we use machine learning to generate a text output based on the input strings,Generative AI,Self-Supervised Learning,Supervised Learning,Token,What is Machine Learning?,Generative AI,Transformer
+H071,What's a difference between the neoperceptron and CNN?,Deep Learning,Epochs and Batches,Loss and Optimizers,Neural Network Basics,Neurons and Weights,skip,
+H072,How to use Chi-square test in dataset with negative values,Confusion Matrix,Data Cleaning,Missing Values,Recall,Train-Test Split,skip,
+H073,How distribution of data effects model performance?,Building a Regression Model,Comparing Models,Fine-tuning,Model Improvement,R-Squared,skip,
+H074,"Regression yields much smaller standard deviation and the mean is off, what could be wrong?",Feature Scaling,Linear Regression,Mean Squared Error,Multiple Regression,R-Squared,skip,
+H075,How to work with different Encoding for Foreign Languages,Data Augmentation,Embedding,One-Hot Encoding,Text Features,Transformer,skip,
+H076,How do I factor in features which are IDs?,Derived Features,Feature Selection,Features and Targets,One-Hot Encoding,Text Features,Feature Selection,One-Hot Encoding; Features and Targets
+H077,What is the classification accuracy of a random classifier?,Accuracy,Building a Classifier,Classification Basics,Precision,Random Forest,Accuracy,Comparing Models
+H078,What does the number after a machine learning model name mean?,AI vs ML,Accuracy,Hyperparameter,Precision,Supervised Learning,skip,
+H079,Does sigmoid facilitate modeling non-linear decision boundaries or does this come from high-dimensional data?,Activation Functions,Decision Trees,Deep Learning,Neurons and Weights,Softmax Function,Activation Functions,Logistic Regression
+H080,What exactly is a trained model for machine-learning?,AI vs ML,Fine-tuning,Gradient Descent,Supervised Learning,What is Machine Learning?,What is Machine Learning?,Neurons and Weights
+H081,How to measure the contribution of each input channel to a network's accuracy?,Accuracy,Backpropagation,Loss and Optimizers,Neurons and Weights,Precision,skip,
+H082,How to improve an existing (trained) classifier?,Building a Classifier,Data Augmentation,Fine-tuning,K-Nearest Neighbors,Model Improvement,Model Improvement,Fine-tuning; Hyperparameter
+H083,Should the data be shuffled on a translation dataset,Data Augmentation,Data Cleaning,Embedding,Transfer Learning,Transformer,skip,
+H084,Why do I get an almost perfect fit as well as bias variance tradeoff with my time series forecast?,Mean Squared Error,Overfitting,R-Squared,Regularization,Underfitting,Overfitting,Underfitting
+H085,Why are sigmoid/tanh activation function still used for deep NN when we have ReLU?,Activation Functions,Deep Learning,Neurons and Weights,Softmax Function,Transformer,Activation Functions,
+H086,How to choose a classifier after cross-validation?,Building a Classifier,Cross-Validation,Decision Trees,K-Nearest Neighbors,Model Improvement,Comparing Models,Cross-Validation
+H087,How does personalized machine learning work?,Deep Learning,Self-Supervised Learning,Supervised Learning,Unsupervised Learning,What is Machine Learning?,skip,
+H088,clustering before or after PCA?,Choosing K,Clustering,Clustering Evaluation,K-Means,PCA,PCA,Clustering
+H089,Could someone explain to me how back-prop is done for the generator in a GAN?,Backpropagation,Data Augmentation,Generative AI,Hyperparameter,Softmax Function,skip,
+H090,Where exactly does $\geq 1$ come from in SVMs optimization problem constraint?,Gradient Descent,Hyperparameter,Learning Rate,Loss and Optimizers,Precision,skip,
+H091,Does class weighting encourage overfitting when the true class distribution is imbalanced?,Data Leakage,Logistic Regression,Overfitting,Regularization,Underfitting,skip,
+H092,what arguments should I pass to dbscan or optic in order to divide the data in a specific way,Choosing K,Clustering Evaluation,Data Cleaning,K-Means,Train-Test Split,skip,
+H093,How to update bias and bias's weight using backpropagation algorithm,Backpropagation,Gradient Descent,Loss and Optimizers,Neurons and Weights,Softmax Function,Backpropagation,Neurons and Weights
+H094,"What is the simplest neural network for the simplest nonlinear function $f(x,y) =xy$",Activation Functions,Backpropagation,Neural Network Basics,Neurons and Weights,Softmax Function,skip,
+H095,Does this type of classification exist?,Building a Classifier,Classification Basics,Clustering,Decision Trees,K-Nearest Neighbors,skip,
+H096,How to calculate accuracy of an imbalanced dataset,Accuracy,Confusion Matrix,F1 Score,Precision,Recall,Accuracy,F1 Score
+H097,Stochastic gradient descent based on vector operations?,Backpropagation,Gradient Descent,Learning Rate,Loss and Optimizers,Neurons and Weights,skip,
+H098,What are the elements in a BERT word embedding?,Data Augmentation,Embedding,Text Features,Token,Transformer,Embedding,Token
+H099,RBF kernel can classify two classes as in figure?,Building a Classifier,Classification Basics,Decision Trees,K-Nearest Neighbors,Logistic Regression,skip,
+H100,Do 0-columns affect the results of time series clustering when using k-means and Ward's method?,Choosing K,Clustering,Clustering Evaluation,K-Means,Missing Values,skip,
+H101,How can I replace outliers with maximum non-outlier value?,Feature Scaling,Missing Values,Outliers,Regularization,Softmax Function,Outliers,
+H102,What is the difference between NLP and text mining?,AI vs ML,Classification Basics,Supervised Learning,Text Features,Token,skip,
+H103,How to find similar points to a positive set when you don't have any negative set?,Clustering,Embedding,K-Nearest Neighbors,Recall,Unsupervised Learning,skip,
+H104,What's an algorithm or method that updates a prediction after new information is available?,Generative AI,Gradient Descent,Loss and Optimizers,Self-Supervised Learning,Transfer Learning,skip,
+H105,Model accuracy: how to determine it?,Accuracy,Comparing Models,Confusion Matrix,Precision,R-Squared,Accuracy,Train-Test Split; Cross-Validation
+H106,How to decide neural network architecture?,Backpropagation,Deep Learning,Neural Network Basics,Neurons and Weights,Transformer,skip,
+H107,"What is LSTM, BiLSTM and when to use them?",Backpropagation,Embedding,Epochs and Batches,Neural Network Basics,Transformer,skip,
+H108,"When should mutual information be used for feature selection over other feature selection methods like correlation, ANOVA , etc?",Decision Trees,Feature Selection,Features and Targets,K-Nearest Neighbors,Random Forest,Feature Selection,
+H109,Accuracy and loss don't change in CNN. Is it over-fitting?,Accuracy,Data Leakage,Loss and Optimizers,Overfitting,Underfitting,skip,
+H110,when to use dot product and when to use the common product In neural networks?,Activation Functions,Deep Learning,Features and Targets,Neural Network Basics,Neurons and Weights,skip,
+H111,Is parsing files an application of machine learning?,Building a Classifier,Deep Learning,Supervised Learning,Unsupervised Learning,What is Machine Learning?,What is Machine Learning?,AI vs ML
+H112,"Backpropagation: In second-order methods, would ReLU derivative be 0? and what its effect on training?",Activation Functions,Backpropagation,Gradient Descent,Learning Rate,Neurons and Weights,skip,
+H113,How to identify clusters after multiple runs?,Choosing K,Clustering,Clustering Evaluation,K-Means,Unsupervised Learning,skip,
+H114,How can word2vec or BERT be used for previously unseen words,Data Augmentation,Embedding,Text Features,Token,Transformer,Token	,Embeeding
+H115,What does the activation of a neuron mean?,Activation Functions,Attention Mechanism,Neural Network Basics,Neurons and Weights,Reinforcement Learning,Activation Functions,Neurons and Weights
+H116,What techniques to use for image matching,Building a Classifier,Data Augmentation,Embedding,Generative AI,K-Nearest Neighbors,skip,
+H117,"What does the one function $\mathbf{1}_{i,y^{(t)}}$ exactly mean in backward propagation of RNN in the book ""Deep learning"" of Bengio",Activation Functions,Backpropagation,Gradient Descent,Softmax Function,Transformer,skip,
+H118,What could be the reason of having a lower RMSE than MAE?,Comparing Models,Learning Rate,Mean Squared Error,R-Squared,Underfitting,Mean Squared Error,
+H119,How to predict an outcome within a specific time window?,Building a Regression Model,Data Leakage,Features and Targets,Linear Regression,Logistic Regression,skip,
+H120,How relevant is Self Organizing Maps in today's science?,Attention Mechanism,Choosing K,Neural Network Basics,Self-Supervised Learning,Unsupervised Learning,skip,

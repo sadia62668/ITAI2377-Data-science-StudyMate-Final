@@ -1,0 +1,369 @@
+lesson_id,topic,title,content,difficulty,simple_explanation,real_world_example,technical_explanation,python_example,practice_exercise,next_lesson
+1,Introduction to ML,What is Machine Learning?,Explanation: ML learns patterns from data to make predictions. Example: Predict house prices from size and location. Practice: Identify one real-world ML application.,Beginner,ML learns patterns from data to make predictions. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Netflix recommends movies based on viewing history.,ML learns patterns from training data.,"print(""ML learns patterns from data"")","Scenario: Netflix recommends movies based on viewing history.
+
+Clue: Think about how What is Machine Learning? works in this situation.
+
+Question: Identify one way to apply What is Machine Learning? in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",AI vs ML
+2,Introduction to ML,AI vs ML,Explanation: AI is the broader field; ML is a method within AI that learns from data. Example: A rule-based chatbot may use AI without ML. Practice: Explain one difference between AI and ML.,Beginner,AI is the broader field; ML is a method within AI that learns from data. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,"A calculator follows rules, while a photo app can learn to recognize cats.",Machine Learning is a subset of Artificial Intelligence.,"print(""ML learns patterns from data"")","Scenario: A calculator follows rules, while a photo app can learn to recognize cats.
+
+Clue: Think about how AI vs ML works in this situation.
+
+Question: Identify one way to apply AI vs ML in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Supervised Learning
+3,Introduction to ML,Supervised Learning,Explanation: Supervised learning uses labeled examples to predict outcomes. Example: Predict whether an email is spam. Practice: Identify the label in a house-price dataset.,Beginner,Supervised learning uses labeled examples to predict outcomes. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,An email filter learns from messages labeled spam or not spam.,Supervised learning uses labeled examples.,"print(""ML learns patterns from data"")","Scenario: An email filter learns from messages labeled spam or not spam.
+
+Clue: Think about how Supervised Learning works in this situation.
+
+Question: Identify one way to apply Supervised Learning in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Unsupervised Learning
+4,Introduction to ML,Unsupervised Learning,Explanation: Unsupervised learning discovers patterns in unlabeled data. Example: Group customers with similar purchasing habits. Practice: Suggest a clustering application.,Intermediate,Unsupervised learning discovers patterns in unlabeled data. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A store groups shoppers with similar buying habits.,Unsupervised learning discovers patterns without labels.,"print(""ML learns patterns from data"")","Scenario: A store groups shoppers with similar buying habits.
+
+Clue: Think about how Unsupervised Learning works in this situation.
+
+Question: Identify one way to apply Unsupervised Learning in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Reinforcement Learning
+5,Introduction to ML,Reinforcement Learning,"Explanation: An agent learns through actions, rewards, and penalties. Example: A game-playing agent improves through feedback. Practice: Identify the agent and reward in a game.",Intermediate,"An agent learns through actions, rewards, and penalties. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.",A game character earns points for good moves.,Reinforcement learning uses actions and rewards.,"print(""ML learns patterns from data"")","Scenario: A game character earns points for good moves.
+
+Clue: Think about how Reinforcement Learning works in this situation.
+
+Question: Identify one way to apply Reinforcement Learning in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Data Cleaning
+6,Data Preprocessing,Data Cleaning,"Explanation: Cleaning fixes missing values, duplicates, and inconsistent records. Example: Remove repeated customer records. Practice: List three data quality problems.",Beginner,"Cleaning fixes missing values, duplicates, and inconsistent records. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.",A school spreadsheet contains repeated student records.,"Data cleaning handles duplicates, missing values, and inconsistencies.","import pandas as pd; print(pd.Series([2, None, 4]).fillna(3))","Scenario: A school spreadsheet contains repeated student records.
+
+Clue: Think about how Data Cleaning works in this situation.
+
+Question: Identify one way to apply Data Cleaning in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Missing Values
+7,Data Preprocessing,Missing Values,Explanation: Missing numerical values may be imputed using a median or mean. Example: Fill missing ages using the median training age. Practice: Explain why missing data matters.,Beginner,Missing numerical values may be imputed using a median or mean. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A student leaves their age blank on a form.,Imputation fills missing values using suitable statistics.,"import pandas as pd; print(pd.Series([2, None, 4]).fillna(3))","Scenario: A student leaves their age blank on a form.
+
+Clue: Think about how Missing Values works in this situation.
+
+Question: Identify one way to apply Missing Values in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Feature Scaling
+8,Data Preprocessing,Feature Scaling,Explanation: Scaling adjusts numerical feature ranges. Example: Standardize income and age before KNN. Practice: Explain when scaling helps.,Beginner,Scaling adjusts numerical feature ranges. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Income and age have very different numerical ranges.,Standardization uses mean and standard deviation.,"import pandas as pd; print(pd.Series([2, None, 4]).fillna(3))","Scenario: A dataset has ages from 10 to 80 and incomes from 1000 to 100000.
+
+Clue: Some algorithms are sensitive to differences in feature ranges.
+
+Question: What technique could help? A) Feature scaling  B) Delete all ages  C) Add random values
+
+Correct Answer: A
+
+Explanation: Scaling helps make numerical feature ranges comparable.",Train-Test Split
+9,Data Preprocessing,Train-Test Split,Explanation: Separate training and test data before fitting preprocessing steps. Example: Use 80% for training and 20% for testing. Practice: Explain data leakage.,Intermediate,Separate training and test data before fitting preprocessing steps. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,"Homework is used for practice, while a final exam tests new questions.",Train-test splitting evaluates performance on unseen data.,"import pandas as pd; print(pd.Series([2, None, 4]).fillna(3))","Scenario: Homework is used for practice, while a final exam tests new questions.
+
+Clue: Think about how Train-Test Split works in this situation.
+
+Question: Identify one way to apply Train-Test Split in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Outliers
+10,Data Preprocessing,Outliers,Explanation: Outliers are unusually distant observations requiring investigation. Example: Check an extremely high salary value. Practice: Explain why removing every outlier is risky.,Intermediate,Outliers are unusually distant observations requiring investigation. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,"Most houses cost $200,000, but one record says $20 million.",Outliers are unusual observations requiring investigation.,"import pandas as pd; print(pd.Series([2, None, 4]).fillna(3))","Scenario: Most houses cost $200,000, but one record says $20 million.
+
+Clue: Think about how Outliers works in this situation.
+
+Question: Identify one way to apply Outliers in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Features and Targets
+11,Feature Engineering,Features and Targets,Explanation: Features are inputs; the target is the prediction outcome. Example: House size is a feature; price is a target. Practice: Identify X and y in a dataset.,Beginner,Features are inputs; the target is the prediction outcome. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,House size helps predict house price.,X contains input features and y is the target.,"import pandas as pd; print(pd.get_dummies(pd.Series([""red"", ""blue""])))","Scenario: House size helps predict house price.
+
+Clue: Think about how Features and Targets works in this situation.
+
+Question: Identify one way to apply Features and Targets in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",One-Hot Encoding
+12,Feature Engineering,One-Hot Encoding,"Explanation: One-hot encoding represents categories using indicator columns. Example: Encode red, blue, and green as separate columns. Practice: Explain why encoding is needed.",Beginner,One-hot encoding represents categories using indicator columns. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,"A survey records favorite colors as red, blue, and green.",One-hot encoding creates binary indicator columns.,"import pandas as pd; print(pd.get_dummies(pd.Series([""red"", ""blue""])))","Scenario: A survey records favorite colors as red, blue, and green.
+
+Clue: Think about how One-Hot Encoding works in this situation.
+
+Question: Identify one way to apply One-Hot Encoding in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Feature Selection
+13,Feature Engineering,Feature Selection,Explanation: Feature selection keeps useful predictors and removes irrelevant ones. Example: Select useful variables for loan-risk prediction. Practice: Name one reason to select features.,Beginner,Feature selection keeps useful predictors and removes irrelevant ones. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A house-price model ignores an unrelated student ID.,Feature selection keeps useful predictors.,"import pandas as pd; print(pd.get_dummies(pd.Series([""red"", ""blue""])))","Scenario: A house-price model ignores an unrelated student ID.
+
+Clue: Think about how Feature Selection works in this situation.
+
+Question: Identify one way to apply Feature Selection in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Derived Features
+14,Feature Engineering,Derived Features,Explanation: New features can be created from existing columns. Example: Calculate family size from parents and children. Practice: Propose a new feature.,Intermediate,New features can be created from existing columns. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Family size is calculated from adults and children.,Feature engineering creates variables from existing data.,"import pandas as pd; print(pd.get_dummies(pd.Series([""red"", ""blue""])))","Scenario: Family size is calculated from adults and children.
+
+Clue: Think about how Derived Features works in this situation.
+
+Question: Identify one way to apply Derived Features in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Text Features
+15,Feature Engineering,Text Features,Explanation: TF-IDF represents documents numerically based on word importance. Example: Convert ML lesson descriptions into vectors. Practice: Explain why text needs vectorization.,Intermediate,TF-IDF represents documents numerically based on word importance. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A search engine matches questions to useful lessons.,TF-IDF converts text into numerical features.,"import pandas as pd; print(pd.get_dummies(pd.Series([""red"", ""blue""])))","Scenario: A search engine matches questions to useful lessons.
+
+Clue: Think about how Text Features works in this situation.
+
+Question: Identify one way to apply Text Features in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Linear Regression
+16,Regression,Linear Regression,Explanation: Linear regression models a continuous numerical outcome. Example: Predict rent using apartment size. Practice: Identify a regression problem.,Beginner,Linear regression models a continuous numerical outcome. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,An apartment website estimates monthly rent.,Linear regression predicts continuous numerical values.,from sklearn.linear_model import LinearRegression; print(LinearRegression()),"Scenario: A lemonade stand predicts sales using Sales = 10 + 2 x Temperature.
+
+Clue: Replace Temperature with 20.
+
+Question: What are predicted sales at 20 degrees? A) 30  B) 50  C) 60
+
+Correct Answer: B
+
+Explanation: 10 + 2 x 20 = 50.",Slope and Intercept
+17,Regression,Slope and Intercept,Explanation: The intercept is the predicted value at X=0; slope describes predicted change per unit X. Example: A slope of 2 means predicted Y increases by 2 per X unit. Practice: Interpret a slope.,Beginner,The intercept is the predicted value at X=0; slope describes predicted change per unit X. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Each extra room increases predicted rent by $200.,The equation y = b0 + b1*x uses an intercept and slope.,from sklearn.linear_model import LinearRegression; print(LinearRegression()),"Scenario: Each extra room increases predicted rent by $200.
+
+Clue: Think about how Slope and Intercept works in this situation.
+
+Question: Identify one way to apply Slope and Intercept in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Multiple Regression
+18,Regression,Multiple Regression,"Explanation: Multiple regression uses several predictors. Example: Predict price using size, age, and location. Practice: List three possible features.",Beginner,Multiple regression uses several predictors. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,"House price depends on size, age, and location.",Multiple regression uses several input features.,from sklearn.linear_model import LinearRegression; print(LinearRegression()),"Scenario: House price depends on size, age, and location.
+
+Clue: Think about how Multiple Regression works in this situation.
+
+Question: Identify one way to apply Multiple Regression in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Mean Squared Error
+19,Regression,Mean Squared Error,Explanation: MSE averages squared differences between actual and predicted values. Example: Errors of 2 and -2 both contribute 4. Practice: Calculate squared error for one prediction.,Intermediate,MSE averages squared differences between actual and predicted values. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A model predicts $95 when the real price is $100.,MSE averages squared prediction errors.,from sklearn.linear_model import LinearRegression; print(LinearRegression()),"Scenario: A model predicts $95 when the real price is $100.
+
+Clue: Think about how Mean Squared Error works in this situation.
+
+Question: Identify one way to apply Mean Squared Error in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",R-Squared
+20,Regression,R-Squared,Explanation: R-squared measures improvement over predicting the target mean on the evaluated data. Example: An R-squared of 0.8 indicates strong fit relative to the mean baseline. Practice: Explain why R-squared does not prove causation.,Intermediate,R-squared measures improvement over predicting the target mean on the evaluated data. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A price model performs better than always guessing the average.,R-squared compares model fit with a mean-prediction baseline.,from sklearn.linear_model import LinearRegression; print(LinearRegression()),"Scenario: A price model performs better than always guessing the average.
+
+Clue: Think about how R-Squared works in this situation.
+
+Question: Identify one way to apply R-Squared in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Classification Basics
+21,Classification,Classification Basics,Explanation: Classification predicts discrete categories. Example: Predict spam or not spam. Practice: Give a classification example.,Beginner,Classification predicts discrete categories. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,An email is labeled spam or not spam.,Classification predicts discrete categories.,from sklearn.tree import DecisionTreeClassifier; print(DecisionTreeClassifier()),"Scenario: An email application labels messages as Spam or Not Spam.
+
+Clue: The output is a category, not a continuous number.
+
+Question: Which ML task is this? A) Classification  B) Regression  C) Clustering
+
+Correct Answer: A
+
+Explanation: Classification predicts categories.",Logistic Regression
+22,Classification,Logistic Regression,Explanation: Logistic regression estimates class probabilities. Example: Predict the probability of customer churn. Practice: Explain the role of a threshold.,Beginner,Logistic regression estimates class probabilities. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A bank estimates whether a payment might be fraudulent.,Logistic regression estimates class probabilities.,from sklearn.tree import DecisionTreeClassifier; print(DecisionTreeClassifier()),"Scenario: A bank estimates whether a payment might be fraudulent.
+
+Clue: Think about how Logistic Regression works in this situation.
+
+Question: Identify one way to apply Logistic Regression in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Decision Trees
+23,Classification,Decision Trees,Explanation: Decision trees learn feature-based decision rules. Example: Classify a fruit using color and weight. Practice: Describe a decision rule.,Beginner,Decision trees learn feature-based decision rules. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A decision tree checks a fruit's color and weight.,Decision trees use feature-based splitting rules.,from sklearn.tree import DecisionTreeClassifier; print(DecisionTreeClassifier()),"Scenario: A school decides whether to hold an outdoor event by checking rain and wind.
+
+Clue: Decision trees follow branching rules.
+
+Question: What does a branch represent? A) A decision outcome  B) A random number  C) A computer error
+
+Correct Answer: A
+
+Explanation: Branches represent outcomes of decision rules.",K-Nearest Neighbors
+24,Classification,K-Nearest Neighbors,Explanation: KNN predicts using nearby labeled training examples. Example: Classify a flower using similar flowers. Practice: Explain what K means.,Intermediate,KNN predicts using nearby labeled training examples. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A flower is classified by comparing nearby flowers.,KNN uses nearby labeled examples.,from sklearn.tree import DecisionTreeClassifier; print(DecisionTreeClassifier()),"Scenario: A flower is classified by comparing nearby flowers.
+
+Clue: Think about how K-Nearest Neighbors works in this situation.
+
+Question: Identify one way to apply K-Nearest Neighbors in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Random Forest
+25,Classification,Random Forest,Explanation: Random forests combine multiple decision trees. Example: Predict customer churn using many trees. Practice: Explain why combining trees can help.,Intermediate,Random forests combine multiple decision trees. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Several decision trees vote on a prediction.,Random forests combine multiple decision trees.,from sklearn.tree import DecisionTreeClassifier; print(DecisionTreeClassifier()),"Scenario: Several decision trees vote on a prediction.
+
+Clue: Think about how Random Forest works in this situation.
+
+Question: Identify one way to apply Random Forest in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Accuracy
+26,Model Evaluation,Accuracy,Explanation: Accuracy is the fraction of predictions that are correct. Example: 80 correct predictions out of 100 gives 80% accuracy. Practice: Calculate accuracy.,Beginner,Accuracy is the fraction of predictions that are correct. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A student answers 18 out of 20 questions correctly.,Accuracy = correct predictions / total predictions.,"from sklearn.metrics import accuracy_score; print(accuracy_score([1,0,1], [1,0,0]))","Scenario: A student answers 18 out of 20 questions correctly.
+
+Clue: Think about how Accuracy works in this situation.
+
+Question: Identify one way to apply Accuracy in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Precision
+27,Model Evaluation,Precision,"Explanation: Precision is the fraction of predicted positives that are truly positive. Example: Of 20 spam alerts, 15 are actually spam. Practice: Calculate precision.",Beginner,Precision is the fraction of predicted positives that are truly positive. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Eight of ten spam alerts are actually spam.,Precision = TP / (TP + FP).,"from sklearn.metrics import accuracy_score; print(accuracy_score([1,0,1], [1,0,0]))","Scenario: Eight of ten spam alerts are actually spam.
+
+Clue: Think about how Precision works in this situation.
+
+Question: Identify one way to apply Precision in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Recall
+28,Model Evaluation,Recall,Explanation: Recall is the fraction of actual positives detected. Example: A model detects 18 of 24 actual spam messages. Practice: Calculate recall.,Beginner,Recall is the fraction of actual positives detected. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A detector finds nine of twelve actual spam messages.,Recall = TP / (TP + FN).,"from sklearn.metrics import accuracy_score; print(accuracy_score([1,0,1], [1,0,0]))","Scenario: A detector finds nine of twelve actual spam messages.
+
+Clue: Think about how Recall works in this situation.
+
+Question: Identify one way to apply Recall in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",F1 Score
+29,Model Evaluation,F1 Score,Explanation: F1 is the harmonic mean of precision and recall. Example: Use F1 when balancing false positives and false negatives. Practice: Explain why F1 can be useful.,Intermediate,F1 is the harmonic mean of precision and recall. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A screening system balances missed cases and false alarms.,F1 is the harmonic mean of precision and recall.,"from sklearn.metrics import accuracy_score; print(accuracy_score([1,0,1], [1,0,0]))","Scenario: A screening system balances missed cases and false alarms.
+
+Clue: Think about how F1 Score works in this situation.
+
+Question: Identify one way to apply F1 Score in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Confusion Matrix
+30,Model Evaluation,Confusion Matrix,"Explanation: A confusion matrix summarizes correct and incorrect class predictions. Example: Count TP, TN, FP, and FN for spam detection. Practice: Identify a false positive.",Intermediate,A confusion matrix summarizes correct and incorrect class predictions. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,An email filter incorrectly marks a real message as spam.,"A confusion matrix counts TP, TN, FP, and FN.","from sklearn.metrics import accuracy_score; print(accuracy_score([1,0,1], [1,0,0]))","Scenario: An email filter incorrectly marks a real message as spam.
+
+Clue: Think about how Confusion Matrix works in this situation.
+
+Question: Identify one way to apply Confusion Matrix in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Overfitting
+31,Overfitting and Underfitting,Overfitting,Explanation: Overfitting occurs when a model learns training-specific details and generalizes poorly. Example: A tree memorizes training examples. Practice: Describe an overfitting symptom.,Beginner,Overfitting occurs when a model learns training-specific details and generalizes poorly. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A student memorizes practice answers but struggles on a new exam.,Overfitting causes poor generalization to new examples.,"print(""Train:"", 0.98, ""Test:"", 0.65)","Scenario: A cat-and-dog AI model scores 95% on training pictures and 60% on new pictures.
+
+Clue: Compare training accuracy with testing accuracy.
+
+Question: What is the accuracy gap? A) 15 points  B) 35 points  C) 55 points
+
+Correct Answer: B
+
+Explanation: 95 - 60 = 35 percentage points. This large gap suggests overfitting.",Underfitting
+32,Overfitting and Underfitting,Underfitting,Explanation: Underfitting occurs when a model cannot capture important patterns. Example: A simple straight line misses a curved pattern. Practice: Describe an underfitting symptom.,Beginner,Underfitting occurs when a model cannot capture important patterns. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A student uses one simple rule for every math problem.,Underfitting occurs when a model misses important patterns.,"print(""Train:"", 0.98, ""Test:"", 0.65)","Scenario: A model scores 55% on training data and 52% on testing data.
+
+Clue: Both scores are low, meaning the model has not learned enough.
+
+Question: What is the likely problem? A) Overfitting  B) Underfitting  C) Perfect learning
+
+Correct Answer: B
+
+Explanation: Low performance on both datasets suggests underfitting.",Cross-Validation
+33,Overfitting and Underfitting,Cross-Validation,Explanation: Cross-validation tests performance across multiple training-validation splits. Example: Use five-fold cross-validation. Practice: Explain why validation helps.,Beginner,Cross-validation tests performance across multiple training-validation splits. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A teacher checks understanding using several different tests.,Cross-validation evaluates performance across different splits.,"print(""Train:"", 0.98, ""Test:"", 0.65)","Scenario: A teacher checks understanding using several different tests.
+
+Clue: Think about how Cross-Validation works in this situation.
+
+Question: Identify one way to apply Cross-Validation in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Regularization
+34,Overfitting and Underfitting,Regularization,Explanation: Regularization discourages overly complex models. Example: Ridge regression penalizes large coefficients. Practice: Explain why regularization is useful.,Intermediate,Regularization discourages overly complex models. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A model follows simpler patterns instead of memorizing details.,Regularization discourages excessive model complexity.,"print(""Train:"", 0.98, ""Test:"", 0.65)","Scenario: A model follows simpler patterns instead of memorizing details.
+
+Clue: Think about how Regularization works in this situation.
+
+Question: Identify one way to apply Regularization in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Data Leakage
+35,Overfitting and Underfitting,Data Leakage,Explanation: Leakage happens when training uses information unavailable at prediction time. Example: Scaling the entire dataset before splitting can leak test statistics. Practice: Identify a possible leakage source.,Intermediate,Leakage happens when training uses information unavailable at prediction time. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A student sees the final exam answers before practicing.,Data leakage uses information unavailable at prediction time.,"print(""Train:"", 0.98, ""Test:"", 0.65)","Scenario: A student sees the final exam answers before practicing.
+
+Clue: Think about how Data Leakage works in this situation.
+
+Question: Identify one way to apply Data Leakage in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Clustering
+36,Unsupervised Learning,Clustering,Explanation: Clustering groups similar observations without predefined class labels. Example: Group shoppers by purchasing patterns. Practice: Describe a clustering use case.,Beginner,Clustering groups similar observations without predefined class labels. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A music app groups listeners by their favorite songs.,Clustering groups similar observations without predefined labels.,from sklearn.cluster import KMeans; print(KMeans(n_clusters=3)),"Scenario: A store groups customers by similar shopping habits without predefined labels.
+
+Clue: The algorithm discovers groups rather than predicting known categories.
+
+Question: Which technique fits? A) Clustering  B) Regression  C) Image resizing
+
+Correct Answer: A
+
+Explanation: Clustering groups similar data points.",K-Means
+37,Unsupervised Learning,K-Means,Explanation: K-means groups observations around K cluster centers. Example: Group customers into three clusters. Practice: Explain what K represents.,Beginner,K-means groups observations around K cluster centers. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A store divides shoppers into three groups.,K-means assigns observations to K cluster centers.,from sklearn.cluster import KMeans; print(KMeans(n_clusters=3)),"Scenario: A store divides shoppers into three groups.
+
+Clue: Think about how K-Means works in this situation.
+
+Question: Identify one way to apply K-Means in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Choosing K
+38,Unsupervised Learning,Choosing K,"Explanation: Methods such as elbow plots and silhouette scores can help assess cluster counts. Example: Compare K=2, K=3, and K=4. Practice: Explain why K must be chosen.",Beginner,Methods such as elbow plots and silhouette scores can help assess cluster counts. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A coach compares different numbers of groups.,Elbow and silhouette methods help compare cluster counts.,from sklearn.cluster import KMeans; print(KMeans(n_clusters=3)),"Scenario: A coach compares different numbers of groups.
+
+Clue: Think about how Choosing K works in this situation.
+
+Question: Identify one way to apply Choosing K in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",PCA
+39,Unsupervised Learning,PCA,Explanation: Principal Component Analysis creates fewer components that retain much of the data variance. Example: Reduce 20 numerical features to 2 components. Practice: Describe why PCA is useful.,Intermediate,Principal Component Analysis creates fewer components that retain much of the data variance. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A photo app compresses many measurements into fewer numbers.,PCA reduces dimensions while preserving much of the variance.,from sklearn.cluster import KMeans; print(KMeans(n_clusters=3)),"Scenario: A photo app compresses many measurements into fewer numbers.
+
+Clue: Think about how PCA works in this situation.
+
+Question: Identify one way to apply PCA in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Clustering Evaluation
+40,Unsupervised Learning,Clustering Evaluation,Explanation: Silhouette score measures how well observations fit their assigned clusters relative to other clusters. Example: Compare silhouette scores for different K values. Practice: Explain what a higher silhouette score generally means.,Intermediate,Silhouette score measures how well observations fit their assigned clusters relative to other clusters. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Two clusters of dots appear clearly separated.,Silhouette score measures cluster cohesion and separation.,from sklearn.cluster import KMeans; print(KMeans(n_clusters=3)),"Scenario: A store groups customers by similar shopping habits without predefined labels.
+
+Clue: The algorithm discovers groups rather than predicting known categories.
+
+Question: Which technique fits? A) Clustering  B) Regression  C) Image resizing
+
+Correct Answer: A
+
+Explanation: Clustering groups similar data points.",Neural Network Basics
+41,Neural Networks,Neural Network Basics,Explanation: Neural networks learn patterns using connected layers of units. Example: Recognize handwritten digits. Practice: Identify an input and output.,Beginner,Neural networks learn patterns using connected layers of units. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A phone recognizes handwritten numbers.,Neural networks learn using connected layers of units.,"print(""ReLU:"", max(0, -2), max(0, 3))","Scenario: An AI system learns to recognize handwritten numbers.
+
+Clue: Neural networks process information using layers and weights.
+
+Question: What helps the model learn? A) Layers and weights  B) File names  C) Screen brightness
+
+Correct Answer: A
+
+Explanation: Neural networks learn weights that transform inputs into predictions.",Neurons and Weights
+42,Neural Networks,Neurons and Weights,Explanation: Weights control how strongly inputs influence neuron calculations. Example: A neuron combines weighted inputs and a bias. Practice: Explain the purpose of weights.,Beginner,Weights control how strongly inputs influence neuron calculations. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A recipe changes when ingredient quantities change.,Neurons combine weighted inputs and a bias.,"print(""ReLU:"", max(0, -2), max(0, 3))","Scenario: A recipe changes when ingredient quantities change.
+
+Clue: Think about how Neurons and Weights works in this situation.
+
+Question: Identify one way to apply Neurons and Weights in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Activation Functions
+43,Neural Networks,Activation Functions,Explanation: Activation functions introduce nonlinear behavior. Example: ReLU outputs zero for negative inputs. Practice: Explain why nonlinearity matters.,Beginner,Activation functions introduce nonlinear behavior. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A curved road cannot be represented by one straight line.,Activation functions introduce nonlinearity.,"print(""ReLU:"", max(0, -2), max(0, 3))","Scenario: A curved road cannot be represented by one straight line.
+
+Clue: Think about how Activation Functions works in this situation.
+
+Question: Identify one way to apply Activation Functions in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Epochs and Batches
+44,Neural Networks,Epochs and Batches,Explanation: An epoch is a full pass through training data; batches are smaller groups of examples. Example: Train for 10 epochs with batches of 32. Practice: Differentiate an epoch from a batch.,Intermediate,An epoch is a full pass through training data; batches are smaller groups of examples. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A student reviews a textbook several times.,An epoch is a complete pass through training data.,"print(""ReLU:"", max(0, -2), max(0, 3))","Scenario: A student reviews a textbook several times.
+
+Clue: Think about how Epochs and Batches works in this situation.
+
+Question: Identify one way to apply Epochs and Batches in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Loss and Optimizers
+45,Neural Networks,Loss and Optimizers,Explanation: A loss measures prediction error; an optimizer adjusts weights to reduce loss. Example: Adam updates neural network weights. Practice: Explain the optimizer's role.,Intermediate,A loss measures prediction error; an optimizer adjusts weights to reduce loss. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A basketball player adjusts a throw after each miss.,Optimizers update model parameters to reduce loss.,"print(""ReLU:"", max(0, -2), max(0, 3))","Scenario: A basketball player adjusts a throw after each miss.
+
+Clue: Think about how Loss and Optimizers works in this situation.
+
+Question: Identify one way to apply Loss and Optimizers in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",ML Project Workflow
+46,Practical ML Projects,ML Project Workflow,"Explanation: An ML project involves defining a problem, preparing data, training, and evaluating. Example: Build a student-performance predictor. Practice: List the main ML project stages.",Beginner,"An ML project involves defining a problem, preparing data, training, and evaluating. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.",A school wants to predict which students need tutoring.,"ML projects include problem definition, data, training, and evaluation.",from sklearn.datasets import load_iris; print(load_iris().data.shape),"Scenario: A school wants to predict which students need tutoring.
+
+Clue: Think about how ML Project Workflow works in this situation.
+
+Question: Identify one way to apply ML Project Workflow in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Building a Regression Model
+47,Practical ML Projects,Building a Regression Model,Explanation: Train a regression model using numerical targets and relevant features. Example: Predict house prices. Practice: Identify the regression target.,Beginner,Train a regression model using numerical targets and relevant features. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A landlord predicts monthly apartment rent.,Regression models learn from numerical targets.,from sklearn.datasets import load_iris; print(load_iris().data.shape),"Scenario: A landlord predicts monthly apartment rent.
+
+Clue: Think about how Building a Regression Model works in this situation.
+
+Question: Identify one way to apply Building a Regression Model in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Building a Classifier
+48,Practical ML Projects,Building a Classifier,Explanation: Train a classifier using labeled examples. Example: Classify flowers using the Iris dataset. Practice: Identify the class label.,Beginner,Train a classifier using labeled examples. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,A gardener identifies flowers from petal measurements.,Classification models learn from labeled categories.,from sklearn.datasets import load_iris; print(load_iris().data.shape),"Scenario: A gardener identifies flowers from petal measurements.
+
+Clue: Think about how Building a Classifier works in this situation.
+
+Question: Identify one way to apply Building a Classifier in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Comparing Models
+49,Practical ML Projects,Comparing Models,Explanation: Compare models using consistent splits and appropriate evaluation metrics. Example: Compare logistic regression and decision trees. Practice: Choose a suitable evaluation metric.,Intermediate,Compare models using consistent splits and appropriate evaluation metrics. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.,Two study methods are compared using the same final exam.,Models should be compared using consistent splits and metrics.,from sklearn.datasets import load_iris; print(load_iris().data.shape),"Scenario: Two study methods are compared using the same final exam.
+
+Clue: Think about how Comparing Models works in this situation.
+
+Question: Identify one way to apply Comparing Models in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Model Improvement
+50,Practical ML Projects,Model Improvement,"Explanation: Improve performance using better data, features, tuning, and validation. Example: Tune tree depth using cross-validation. Practice: Suggest one improvement.",Intermediate,"Improve performance using better data, features, tuning, and validation. This idea is useful when working with real data. It helps us understand how a machine learning system works and how it can solve a problem. The example below shows how the concept connects to everyday life.",A runner adjusts training after checking progress.,Hyperparameter tuning uses validation to improve performance.,from sklearn.datasets import load_iris; print(load_iris().data.shape),"Scenario: A runner adjusts training after checking progress.
+
+Clue: Think about how Model Improvement works in this situation.
+
+Question: Identify one way to apply Model Improvement in this scenario.
+
+Hint: Use the real-world example and technical explanation above.",Review all ML topics.

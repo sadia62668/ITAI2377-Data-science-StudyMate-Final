@@ -1,0 +1,12 @@
+# StudyMate – libraries used in the notebook (Google Colab already has most of them).
+# Cell 1 installs datasets + sentence-transformers; Cell 14 installs gradio.
+pandas
+numpy
+scikit-learn
+matplotlib
+datasets
+sentence-transformers
+transformers
+torch
+accelerate        # needed for device_map="auto" when loading Qwen
+gradio
